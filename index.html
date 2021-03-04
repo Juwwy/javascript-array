@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array LabTask</title>
+</head>
+<body>
+   
+    
+    <script>
+    var myArray = [];
+    var i= 0;
+
+    while(i < 40){
+        myArray.push(i);
+        i +=3;
+    }
+console.log(myArray);
+    
+
+    var userInput;
+    var scoreCount = [];
+    do{
+        userInput = parseInt(prompt("Enter your number:"))
+    }while(userInput != userInput){
+        for (var i = 1; i <= userInput; i++){
+            scoreCount.push(i);
+           
+        }
+    } console.log(scoreCount);
+    </script>
+</body>
+</html>
